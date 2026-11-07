@@ -1,0 +1,21 @@
+{
+    "name": "school-archives",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.archives",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolArchives\\API\\Contracts\\SchoolArchivesContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Scheduled and manual archival of people and academic records, and reading the archives back.",
+    "config": []
+}
